@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Cafeneaua Boema</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+<nav class="navbar">
+           <img src="img/boemalogo.png" alt="Logo Cafeneaua Boema" style="height: 40px;">
+            
+<div class="hamburger" id="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="despre.html">Despre Noi</a></li>
+                <li><a href="meniu.html">Meniu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reveal-section">
+            <h1 class="section-title">Ne-ar face plăcere să ne auzim!</h1>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 4rem;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h3>Informații Utile</h3>
+                    <br>
+                    <p><strong>Adresă:</strong> Str. Trandafirilor Nr. 10, Timișoara</p>
+                    <p><strong>Telefon:</strong> 0722 123 456</p>
+                    <p><strong>Email:</strong> salut@cafeneauaboema.ro</p>
+                    <br>
+                    <h3>Program de Funcționare:</h3>
+                    <ul>
+                        <li>Luni - Vineri: 07:30 - 20:00</li>
+                        <li>Sâmbătă - Duminică: 09:00 - 21:00</li>
+                    </ul>
+                </div>
+
+                <div style="flex: 1; min-width: 300px;">
+                    <form class="contact-form" action="#" method="POST">
+                        <label for="nume">Numele Tău:</label>
+                        <input type="text" id="nume" name="nume" placeholder="Ex: Ion Popescu" required>
+
+                        <label for="email">Adresa de Email:</label>
+                        <input type="email" id="email" name="email" placeholder="email@exemplu.ro" required>
+
+                        <label for="mesaj">Mesajul Tău:</label>
+                        <textarea id="mesaj" name="mesaj" rows="5" placeholder="Scrie-ne aici întrebarea sau sugestia ta..." required></textarea>
+
+                        <button type="submit" class="btn">Trimite Mesajul</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cafeneaua Boema. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
